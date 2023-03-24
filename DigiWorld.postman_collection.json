@@ -1,0 +1,383 @@
+{
+	"info": {
+		"_postman_id": "0019330c-a6f3-425a-985b-46f30aa493cf",
+		"name": "DigiWorld",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Drivers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/api/driver",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Create one Driver",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Juan\",\r\n  \"number_document\": 567564654,\r\n  \"available\": true,\r\n  \"location\": {\r\n    \"type\": \"Point\",\r\n    \"coordinates\": [ -74.076316, 4.678868 ]\r\n\r\n  }\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/driver/new",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver",
+						"new"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Driver",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/driver/641c824ca1ded187227eb168",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver",
+						"641c824ca1ded187227eb168"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Driver",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Pedro Perez\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/driver/641c824ca1ded187227eb168",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver",
+						"641c824ca1ded187227eb168"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Create one Passenger",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Juan Perez\",\r\n    \"number_document\": 111112\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/passenger/new",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"passenger",
+						"new"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Passenger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/api/passenger",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"passenger"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Passenger",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Pedro Perez\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/passenger/641cacb4879b81dd6c9eb64e",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"passenger",
+						"641cacb4879b81dd6c9eb64e"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Passenger",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Pedro Perez\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/passenger/641cacb4879b81dd6c9eb64e",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"passenger",
+						"641cacb4879b81dd6c9eb64e"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Passenger Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/api/passenger",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"passenger"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllDrivers status =True",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/api/driver/available/true",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver",
+						"available",
+						"true"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Driver In 3 Km",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"location\":{\r\n        \"lan\":1,\r\n        \"lng\":2\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/driver/filter_distance",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver",
+						"filter_distance"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Driver By Number Document",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4001/api/driver/id/12465751",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"driver",
+						"id",
+						"12465751"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Create travel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n  \"start\": {\r\n    \"type\": \"Point\",\r\n    \"coordinates\": [ -78.076316, 4.678868 ]\r\n  },\r\n  \r\n  \"end\": {\r\n    \"type\": \"Point\",\r\n    \"coordinates\": [ -71.076316, 3.678868 ]\r\n    },\r\n    \"passenger\":8789410,\r\n    \"driver\": 12572114\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/travel/create_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"travel",
+						"create_travel"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		},
+		{
+			"name": "Finish travel - Driver",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"end\": {\r\n    \"type\": \"Point\",\r\n    \"coordinates\": [ -78.076316, 4.678868 ]\r\n    },\r\n    \"driver\":124465751\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4001/api/travel/finish_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"travel",
+						"finish_travel"
+					]
+				},
+				"description": "Backend para la prueba de Test"
+			},
+			"response": []
+		}
+	]
+}
