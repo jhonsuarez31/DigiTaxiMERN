@@ -17,7 +17,7 @@ Es importante destacar que este proyecto utiliza el archivo index.jscomo punto d
 
 
 #Swagger UI 
-Corre en : http://localhost:4001/docs/
+Corre en : https://digitaximern-production.up.railway.app/docs/
 
 ![image](https://user-images.githubusercontent.com/86330565/227593227-c1a0a36c-e94d-461c-8ff8-26ba48ed8539.png)
 ![image](https://user-images.githubusercontent.com/86330565/227593254-af449fc2-d625-423d-8ad3-01634bbb0775.png)
