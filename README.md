@@ -19,5 +19,5 @@ Es importante destacar que este proyecto utiliza el archivo index.jscomo punto d
 #Swagger UI 
 Corre en : http://localhost:4001/docs/
 
-![image](https://user-images.githubusercontent.com/86330565/227592843-74e7b7bf-7595-4b65-82af-a1d601c97569.png)
-![image](https://user-images.githubusercontent.com/86330565/227592960-e2b41a17-662c-40ae-880a-e75300704347.png)
+![image](https://user-images.githubusercontent.com/86330565/227593227-c1a0a36c-e94d-461c-8ff8-26ba48ed8539.png)
+![image](https://user-images.githubusercontent.com/86330565/227593254-af449fc2-d625-423d-8ad3-01634bbb0775.png)
