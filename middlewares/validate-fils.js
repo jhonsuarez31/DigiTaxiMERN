@@ -14,7 +14,7 @@ const validateFiels = (req, res = response, next) =>{
           errors: errors.mapped()
       })
   }
-
+  console.log('hola')
   next()
 }
 
